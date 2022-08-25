@@ -1,22 +1,26 @@
 body{
-    background-color: #fff;
+    background-color: rgb(0, 146, 243);
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 .container{
     display: block;
     text-align: center;
-    margin: 50px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+    color: rgb(0, 0, 0);
 }
 .container .screen{
     margin: auto;
-    text-align: center;
+    text-align: center; 
     box-sizing: border-box;
     width: 200px;
     height: 250px;
-    border: 1px solid rgb(255, 255, 255);
+    border: 4px double rgb(255, 255, 255);
     justify-content: center;
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgba(66, 66, 66, 0.4) 0px 2px 8px 0px;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: rgba(0, 39, 65, 0.4) 0px 6px 10px 0px;
 }
 .container label{
     text-transform: uppercase;
@@ -32,8 +36,8 @@ body{
     font-size: 20px;
     text-transform: uppercase;
     color: #fff;
-    background-color: rgb(0, 47, 78);
-    border: 1px solid white;
+    background-color: rgb(0, 146, 243);
+    border: 1px solid rgba(255, 255, 255, 0);
     border-radius: 5px;
 }
 .container button:hover{
